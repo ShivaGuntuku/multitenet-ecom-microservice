@@ -1,0 +1,13 @@
+.venv
+Dockerfile
+README.md
+.git
+.gitignore
+.cache/
+.pytest_cache/
+*.pytest_cache/
+instance/
+__pycache__/
+*/__pycache__/
+docker-compose.yml
+.gitlab-ci.yml

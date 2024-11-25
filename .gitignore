@@ -1,0 +1,59 @@
+.venv/*# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables and config files
+.env
+*.env
+*.ini
+*.cfg
+
+# Virtual environment
+venv/
+.venv/
+env/
+.venv/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage and testing output
+.coverage
+.tox/
+.nox/
+htmlcov/
+*.cover
+*.log
+.cache
+nosetests.xml
+coverage.xml
+*.spec
+
+# Flask-specific files
+instance/
+*.db
+*.sqlite3
+
+# Jupyter notebooks checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Static files
+staticfiles/
+static/
+
+# Node modules (if you have front-end dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS specific
+.DS_Store
